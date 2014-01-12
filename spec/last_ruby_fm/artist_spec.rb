@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe LastRubyFm::Artist do
+describe LastRubyFm::Artist, :vcr do
 
   context 'searching' do
 
